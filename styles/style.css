@@ -1,0 +1,57 @@
+body {
+  background-color: #ffff00;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+.navigation {
+  border: 1px solid black;
+  border-spacing: 100;
+  margin-right: 20px;
+  padding: 10px 10px 10px 10px;
+}
+
+.boxed {
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+
+.box {
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  padding-top: 0%;
+}
+
+.arrange {
+  display: inline-block;
+  margin: 25px -17px 10px 10px;
+  text-align: center;
+  padding: 30px 30px 30px 30px;
+  border: 3px dashed grey;
+}
+
+.bigfont {
+  font-size: 25px;
+  font-family: Verdana, sans-serif;
+}
+
+.smallfont {
+  font-family: Helvetica, sans-serif;
+  font-style: oblique;
+}
+
+/**XSLT CSS**/
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+.border {
+  display: inline-block;
+  margin-right: 30px;
+}

@@ -1,0 +1,88 @@
+Instruction of using ShopOnline
+ShopOnline is an auction system where user able to register as a in the online auction website.
+User able to act as a bidder & auctioner in this web application.
+
+PHP / HTML File
+
+auction.php
+- Is a php file in server where it create or load the auction.xml file.
+
+auctionReport.xsl
+- This file is a language expressing style sheets on XML where it use to generate auction auction report 
+at maintenance.php
+
+bidding.php
+- The purpose of this page is to let user bid the listing auction item which list by the user before expiration date
+
+bidPrice.php
+- This page is for user to bid a specific item from start price. User allow to key in any price where the bid price
+is higher than start price.
+
+bidResults.php
+- This page is to show whether the user had succesfully bid the item or not.
+- If the user's bid price is more than reserve price, it will automatically sold to the user.
+- If the user's bid price is higher than the reserver price and is the highest bidder on the expiration duration,
+the item will set to pending for admin to manage the auction.
+- If the bid price is lower than the latest bid price, the page will show fail bid process.
+
+customer.php
+- The prupose of this file is to create or load customer.xml file.
+
+listing.php
+- This page is for user to list their own product to the bidding page, for other user to bid the item
+at a certain start price.
+
+listSuccesful.php
+- This page is notify user whether their item is list succesfully or not on the bidding page.
+
+login.php
+- This page is for user to login by input email address and password.
+
+logout.php
+- This page is for user to logout. The web app will delete all the session variable of the user information.
+
+maintain.php
+-  This page is a server file for admin, where the admin's action will process at the back-end.
+It will manage the report & generate report.
+
+maintenance.php
+- This page contains the user interface for admin to either process it auction item & generate the auction report.
+
+register.php
+- This page is for user to register its own account with their name, email address & password.
+
+settings.php
+- Contains database information such as host, username, password
+& database at phpMyAdmin
+
+shoponline.php
+- Considered as the homepage of ShopOnline which allow user to navigate to any
+pages they like in the website.
+
+succesful.php
+- Is a page where it notify whether the user succesfully register an account at ShopOnline or not.
+
+timer.php
+- Is a php file where it generates current date and time for the purpose of counting down expiry duration.
+
+JavaScript File
+
+bidding.js
+- Is a javascript file where it shows all the listing auction item using AJAX.
+
+countdown.js
+- Is part of the j-query file where it use to countdown the item expired duration in real time.
+
+listing.js
+- Is a javascript file where it use to show the list of category at the listing page & validate user input.
+
+login.js
+- Is a javascript file where it use to validate user input where login.
+
+maintenance.js
+- Is a javascript file where it call the server function on maintain.php using AJAX.
+
+CSS File
+
+styles.css
+- is a CSS file where it provides user interface to the web app.
